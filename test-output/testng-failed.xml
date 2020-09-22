@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.atmecs.testNGAnnotations.testscript.TestNGAnnotations">
+        <methods>
+          <include name="infoBeforeLaunching"/>
+          <include name="closingDriver"/>
+          <include name="greeting"/>
+          <include name="afterSuite"/>
+          <include name="settingAndLaunchingDriver"/>
+          <include name="greeting1"/>
+          <include name="beforeSuite"/>
+          <include name="infoAfterLaunching"/>
+          <include name="message"/>
+        </methods>
+      </class> <!-- com.atmecs.testNGAnnotations.testscript.TestNGAnnotations -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
